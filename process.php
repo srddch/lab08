@@ -4,7 +4,7 @@ session_start();
 $username = $_POST['username'] ?? '';
 $password = $_POST['password'] ?? '';
 
-if ($username === 'YourName' && $password === 'YourStudentID') {
+if ($username === 'Zhenghao Sun' && $password === '105965706') {
     $_SESSION['user'] = $username;
     header('Location: welcome.php');
     exit;

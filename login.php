@@ -21,7 +21,7 @@ include 'header.inc';
         <input type="password" id="password" name="password" required>
         <br>
 
-        <input type="hidden" name="token" value="abc123">
+        <input type="hidden" name="token" value="Z105965706">
         <input type="submit" value="Login">
     </form>
 <?php include 'footer.inc'; ?>
